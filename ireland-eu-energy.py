@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Energy Dashboard", layout="wide")
+st.set_page_config(page_title="Energy Consumption Analysis and Forecasting of Ireland in Comparison with Selected EU Countries (2012-2024)", layout="wide")
+
+https://github.com/2025669-InciAldogan/ireland-eu-energy-dashboard/blob/main/ireland-eu-energy.py
 
 @st.cache_data
 def load_panel(path="final_panel_features.csv"):
